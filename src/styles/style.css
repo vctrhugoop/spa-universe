@@ -79,7 +79,7 @@ button {
   border-right: 7px solid transparent;
   border-bottom: 7px solid #303030;
 }
-#nav .menu.active {
+#nav .menu.show {
   visibility: visible;
   opacity: 1;
   height: 20rem;
