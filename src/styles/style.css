@@ -163,6 +163,9 @@ footer a {
 }
 
 #app {
+  max-width: 128rem;
+  width: 100%;
+  margin: 0 auto;
   display: grid;
   align-content: center;
 }/*# sourceMappingURL=style.css.map */
