@@ -1,6 +1,11 @@
 footer {
-  width: 100%;
-  position: absolute;
-  bottom: 1.8rem;
+  padding: 4rem 1.8rem;
   text-align: center;
+  color: #e1e1e6;
+  font-family: Roboto;
+  font-size: 1.8rem;
+
+  a {
+    color: #02799d;
+  }
 }

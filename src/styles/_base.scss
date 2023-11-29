@@ -20,6 +20,9 @@ a {
 body {
   height: 100vh;
   background: url(/assets/bg-page-home.png) no-repeat 100% / cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr max-content;
 }
 
 body,

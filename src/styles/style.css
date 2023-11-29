@@ -21,6 +21,9 @@ a {
 body {
   height: 100vh;
   background: url(/assets/bg-page-home.png) no-repeat 100%/cover;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: max-content 1fr max-content;
 }
 
 body,
@@ -103,8 +106,63 @@ button {
 }
 
 footer {
-  width: 100%;
-  position: absolute;
-  bottom: 1.8rem;
+  padding: 4rem 1.8rem;
   text-align: center;
+  color: #e1e1e6;
+  font-family: Roboto;
+  font-size: 1.8rem;
+}
+footer a {
+  color: #02799d;
+}
+
+#app .home {
+  text-align: center;
+}
+#app .home h1 {
+  color: #e1e1e6;
+  font-size: 4rem;
+  margin-bottom: 2.4rem;
+}
+@media screen and (min-width: 768px) {
+  #app .home h1 {
+    font-size: 4.8rem;
+  }
+}
+#app .home button {
+  border-radius: 0.5rem;
+  border: 0.2rem solid #fff;
+  background-color: transparent;
+  padding: 1.2rem 3.2rem;
+  color: #fff;
+  font-size: 1.4rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#app .home button:hover {
+  background: #fff;
+  color: #02799d;
+  transform: scale(1.1);
+}
+
+#app .contant {
+  align-self: flex-start;
+  padding: 5rem;
+}
+#app .contant h1 {
+  color: #e1e1e6;
+  font-size: 4.8rem;
+  margin-bottom: 1.6rem;
+}
+#app .contant p {
+  max-width: 64.8rem;
+  color: #e1e1e6;
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+#app {
+  display: grid;
+  align-content: center;
 }/*# sourceMappingURL=style.css.map */
