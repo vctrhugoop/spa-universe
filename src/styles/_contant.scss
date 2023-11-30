@@ -1,19 +1,21 @@
-#app {
-  .contant {
-    align-self: flex-start;
-    padding: 5rem;
+body {
+  #app {
+    .contant {
+      align-self: flex-start;
+      padding: 5rem;
 
-    h1 {
-      color: #e1e1e6;
-      font-size: 4.8rem;
-      margin-bottom: 1.6rem;
-    }
+      h1 {
+        color: #e1e1e6;
+        font-size: 4.8rem;
+        margin-bottom: 1.6rem;
+      }
 
-    p {
-      max-width: 64.8rem;
-      color: #e1e1e6;
-      font-size: 1.8rem;
-      font-weight: 400;
+      p {
+        max-width: 64.8rem;
+        color: #e1e1e6;
+        font-size: 1.8rem;
+        font-weight: 400;
+      }
     }
   }
 }

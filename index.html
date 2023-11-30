@@ -21,9 +21,19 @@
         <i class="ph-bold ph-list"></i>
       </div>
       <ul class="menu">
-        <li><a href="/" onclick="route()">Home</a></li>
-        <li><a href="/universe" onclick="route()">O Universo</a></li>
-        <li><a href="/explore" onclick="route()">Exploração</a></li>
+        <li>
+          <a href="/" onclick="route()" class="menuItem active home">Home</a>
+        </li>
+        <li>
+          <a href="/universe" onclick="route()" class="menuItem universe"
+            >O Universo</a
+          >
+        </li>
+        <li>
+          <a href="/explore" onclick="route()" class="menuItem explore"
+            >Exploração</a
+          >
+        </li>
       </ul>
     </nav>
     <div id="app"></div>

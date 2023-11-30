@@ -18,8 +18,10 @@ a {
   text-decoration: none;
 }
 body {
+  width: 100vw;
   height: 100vh;
-  background: url(/assets/bg-page-home.png) no-repeat 100% / cover;
+  background: url(/assets/bg-page-home.png) no-repeat;
+  background-size: cover;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: max-content 1fr max-content;

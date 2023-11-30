@@ -6,8 +6,15 @@ export class Router {
   }
 
   route(event) {
+    const menuItem = document.querySelectorAll('.menuItem');
     event = event || window.event;
     event.preventDefault();
+
+    for (let i = 0; i < menuItem.length; i++) {
+      menuItem[i].classList.remove('active');
+    }
+    event.target.classList.add('active');
+
     window.history.pushState({}, '', event.target.href);
 
     this.handle();
