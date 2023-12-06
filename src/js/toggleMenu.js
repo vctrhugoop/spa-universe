@@ -11,5 +11,6 @@ toggleMenu.addEventListener('click', e => {
 for (let i = 0; i < menuItem.length; i++) {
   menuItem[i].addEventListener('click', () => {
     menu.classList.remove('show');
+    btnMenu.classList.remove('ph-x');
   });
 }
